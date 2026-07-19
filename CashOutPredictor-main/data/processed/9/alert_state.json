@@ -1,0 +1,23 @@
+{
+  "last_alert_key": "overall:Total spending:2024-02|2024-03|2024-04:22000.00|26000.00|28000.00",
+  "last_email_status": "demo_console",
+  "last_checked_at": "2026-07-19T19:00:52.693914Z",
+  "last_alert": {
+    "scope": "overall",
+    "label": "Total spending",
+    "periods": [
+      "2024-02",
+      "2024-03",
+      "2024-04"
+    ],
+    "recent_values": [
+      22000.0,
+      26000.0,
+      28000.0
+    ],
+    "percentage_increase": 27.27,
+    "estimated_monthly_impact": 4000.0,
+    "suggested_action": "Review the dashboard and reduce discretionary spending before the next billing cycle.",
+    "alert_key": "overall:Total spending:2024-02|2024-03|2024-04:22000.00|26000.00|28000.00"
+  }
+}
