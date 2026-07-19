@@ -1,181 +1,237 @@
-# 📈 CashForecast
+# CashForecast
 
-**CashForecast** is a financial forecasting and planning platform that helps users analyze cash flow, explore investment and insurance scenarios, and visualize financial insights through an interactive dashboard.
+**CashForecast** is an AI-powered financial forecasting and planning platform that helps users analyze their financial health by processing bank transaction data, predicting future cash flow, detecting spending trends, and delivering proactive financial insights through an interactive dashboard.
 
-🌐 **Live Demo:** [https://cashpredictor.onrender.com/]
+**Live Demo:** https://cashpredictor.onrender.com/
 
 > **Note:** The application is hosted on Render's free tier and may take a few moments to wake up after periods of inactivity.
 
 ---
 
-## 📌 Overview
+# Overview
 
-CashForecast was developed during a hackathon to simplify financial planning through data analytics and predictive modeling.
+CashForecast was developed during a hackathon to simplify personal financial planning using data analytics, predictive modeling, and intelligent automation.
+
+Unlike traditional expense trackers that only display historical transactions, CashForecast analyzes user spending behavior, predicts future cash flow, identifies financial risks, and proactively notifies users before potential financial problems occur.
 
 The platform allows users to:
 
-* Upload and analyze financial data
-* Generate cash flow forecasts
-* Visualize financial trends and metrics
-* Explore investment planning options
-* Evaluate insurance-related financial decisions
-* Access insights through an interactive dashboard
+- Upload financial statements (CSV/PDF)
+- Analyze spending patterns
+- Predict future cash flow
+- Detect financial trends
+- Receive automated financial alerts
+- Explore investment planning
+- Analyze insurance coverage
+- View insights through an interactive dashboard
 
 ---
 
-## 👨‍💻 My Contributions (Priyesh Shah)
+# My Contributions (Akshata Naik)
 
-I was responsible for a significant portion of the technical implementation, including:
-
-### 🤖 Machine Learning & Forecasting
-
-* Built and integrated forecasting models
-* Implemented prediction workflows for financial analysis
-* Improved preprocessing and model pipelines
-
-### ⚙️ Backend Development
-
-* Developed major portions of the Flask backend
-* Implemented core business logic
-* Integrated application features and workflows
-
-### 💼 Investment Module
-
-* Designed and implemented investment analysis functionality
-* Added financial evaluation and recommendation logic
-
-### 🛡️ Insurance Module
-
-* Built insurance planning features
-* Developed supporting financial analysis workflows
-
-### 📊 Dashboard Logic
-
-* Implemented backend dashboard calculations
-* Built data aggregation and reporting functionality
-* Connected analytics data to frontend visualizations
-
-### 🔧 Product Enhancements
-
-* Added feature improvements
-* Fixed bugs and stability issues
-* Supported overall project integration and refinement
+I was responsible for building the core machine learning pipeline, forecasting engine, backend integration, automated email notification system, and several backend enhancements that power the financial analysis workflow.
 
 ---
 
-## 🚀 Features
+## Machine Learning & Forecasting
 
-### Financial Forecasting
-
-* Historical financial trend analysis
-* Cash flow prediction
-* Forecast visualization
-
-### Investment Planning
-
-* Investment analysis tools
-* Risk and return evaluation
-* Long-term planning support
-
-### Insurance Planning
-
-* Insurance recommendation workflows
-* Financial protection analysis
-* Coverage planning assistance
-
-### Interactive Dashboard
-
-* Financial performance overview
-* Key metrics and insights
-* Visual trend reporting
-
-### Data Processing
-
-* CSV and PDF data ingestion
-* Automated preprocessing pipeline
-* Structured financial analysis
+- Built and integrated the core financial forecasting model.
+- Designed the complete machine learning pipeline from preprocessing to prediction.
+- Developed model training workflows using historical financial transaction datasets.
+- Integrated forecasting models with the Flask backend.
+- Improved preprocessing pipelines and feature engineering for better prediction accuracy.
 
 ---
 
-## 🛠️ Technology Stack
+## Data Processing Pipeline
 
-| Layer            | Technologies                                    |
-| ---------------- | ----------------------------------------------- |
-| Backend          | Python, Flask, Flask-SQLAlchemy                 |
-| Machine Learning | Pandas, NumPy, Scikit-Learn, SciPy, StatsModels |
-| Frontend         | HTML, CSS, JavaScript                           |
-| Database         | SQLite                                          |
-| Deployment       | Render                                          |
+- Developed the foundational data processing workflow.
+- Implemented data cleaning and normalization for uploaded bank statements.
+- Built preprocessing pipelines for structured financial analysis.
+- Connected uploaded datasets directly to the prediction engine.
+- Created the base architecture used for model training.
 
 ---
 
-## 🧠 High-Level Workflow
+## Backend Development
+
+- Developed major portions of the Flask backend.
+- Implemented backend APIs and core business logic.
+- Connected machine learning models with frontend workflows.
+- Managed backend integration between uploaded data, predictions, and dashboard analytics.
+- Assisted in overall system integration and backend optimization.
+
+---
+
+## Autonomous Email Alert System
+
+One of my major contributions was implementing the proactive financial notification system.
+
+Instead of requiring users to continuously monitor the dashboard, CashForecast automatically detects risky financial trends and sends warning emails whenever predefined financial conditions are met.
+
+### Features
+
+- Implemented the complete email notification workflow.
+- Integrated Python SMTP with Gmail SMTP Server.
+- Configured secure authentication using environment variables.
+- Automated financial alert generation.
+- Personalized email notifications for each registered user.
+- Added Demo Mode support when SMTP credentials are unavailable.
+- Ensured secure credential management without hardcoding sensitive information.
+
+### Technologies Used
+
+- Python SMTP
+- Gmail SMTP
+- Flask
+- Environment Variables
+- Secure App Password Authentication
+
+---
+
+## Dashboard Integration
+
+- Connected forecasting results with dashboard visualizations.
+- Implemented backend calculations for financial analytics.
+- Integrated machine learning outputs into dashboard reports.
+- Connected backend analytics with frontend visualizations.
+
+---
+
+## Product Enhancements
+
+- Added backend feature enhancements.
+- Fixed bugs and improved application stability.
+- Optimized existing workflows.
+- Supported project integration and testing.
+
+---
+
+# Project Features
+
+## Financial Forecasting
+
+- Historical spending analysis
+- Cash flow prediction
+- Future balance forecasting
+- Forecast visualization
+
+---
+
+## Investment Planning
+
+- Investment analysis tools
+- Risk evaluation
+- Return estimation
+- Long-term financial planning
+
+---
+
+## Insurance Planning
+
+- Insurance recommendation workflows
+- Financial protection analysis
+- Coverage planning assistance
+- Protection gap analysis
+
+---
+
+## Interactive Dashboard
+
+- Financial health overview
+- Spending insights
+- Key financial metrics
+- Interactive charts and reports
+
+---
+
+## Data Processing
+
+- CSV file support
+- PDF statement processing
+- Data normalization
+- Automated preprocessing pipeline
+
+---
+
+## Smart Email Notifications
+
+- Automatic financial alerts
+- Spending trend detection
+- Personalized email notifications
+- Demo Mode support
+
+---
+
+# Technology Stack
+
+| Layer | Technologies |
+|--------|--------------|
+| Backend | Python, Flask, Flask-SQLAlchemy |
+| Machine Learning | Pandas, NumPy, Scikit-learn, SciPy, StatsModels |
+| Data Processing | PDFPlumber, Python Dateutil |
+| Frontend | HTML, CSS, JavaScript |
+| Visualization | Chart.js |
+| Email Service | Python SMTP, Gmail SMTP |
+| Database | SQLite |
+| Deployment | Render |
+
+---
+
+# 🧠 High-Level Workflow
 
 ```text
-Financial Data
+                User Uploads Statement
+                         │
+                         ▼
+          Data Processing & Cleaning
+                         │
+                         ▼
+          Financial Analysis Engine
+                         │
+      ┌──────────┬────────────┬────────────┐
+      │          │            │            │
+      ▼          ▼            ▼            ▼
+ Forecast   Investment   Insurance   Dashboard
       │
       ▼
-Data Processing & Cleaning
+ Trend Detection
       │
       ▼
-Forecasting & Analysis Engine
+ Email Alert Service
       │
       ▼
-Dashboard & Financial Insights
+ Dashboard + User Email
 ```
 
 ---
 
-## 💻 Local Setup
+# Team
 
-### Clone the Repository
-
-```bash
-git clone https://github.com/PriyeshShah22/cashpredictor.git
-cd cashpredictor
-```
-
-### Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### Run the Application
-
-```bash
-python app.py
-```
-
-Open:
-
-```text
-http://localhost:5000
-```
+| Member |
+|---------|
+| **Akshata Naik** |
+| Priyesh Shah |
+| Sameer Musani |
+| Umang Yadav |
 
 ---
 
-## 👥 Team
+# Future Improvements
 
-| Member        |                             
-| ------------- | 
-| Priyesh Shah  |
-| Akshata Naik  | 
-| Sameer Musani | 
-| Umang Yadav   | 
----
-
-## 🔮 Future Improvements
-
-* Advanced forecasting models
-* PostgreSQL integration
-* Cloud-native architecture
-* Enhanced analytics and reporting
-* Portfolio optimization features
-* Additional financial planning tools
+- Advanced machine learning forecasting models
+- Deep learning-based financial prediction
+- PostgreSQL database integration
+- Cloud-native deployment
+- Improved financial recommendation engine
+- Enhanced analytics dashboard
+- Portfolio optimization
+- Mobile application support
+- Real-time banking API integration
+- Scheduled financial health reports
 
 ---
 
-## 📄 License
+# License
 
 Developed as a hackathon project for educational and demonstration purposes.
