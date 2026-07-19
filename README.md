@@ -67,27 +67,6 @@ One of my major contributions was implementing the proactive financial notificat
 
 Instead of requiring users to continuously monitor the dashboard, CashForecast automatically detects risky financial trends and sends warning emails whenever predefined financial conditions are met.
 
-### Workflow
-
-```text
-User Uploads Financial Data
-            │
-            ▼
-Financial Analysis Engine
-            │
-            ▼
-Trend Detection
-            │
-            ▼
-Alert Generation
-            │
-            ▼
-SMTP Email Service
-            │
-            ▼
-User Email Inbox
-```
-
 ### Features
 
 * Implemented the complete email notification workflow.
